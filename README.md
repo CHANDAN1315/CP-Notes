@@ -1,2 +1,2 @@
 # CP-Notes
-notes to excel in CP
+notes to excel in competitive programming 
