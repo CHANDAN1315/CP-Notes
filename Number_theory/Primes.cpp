@@ -80,7 +80,7 @@ void create_seive() {
 
 
 /*  (Segmented Seive)
-    1.given a range l and r how many primes are there in that range
+    1.given a range l to r, how many primes are there in that range
         Constraints ->  1 <= l <= r <= 10^10
                     l - r <= 10^4
 
