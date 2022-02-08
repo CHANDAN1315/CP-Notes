@@ -11,8 +11,8 @@
     memoization  -> tabulation -> space optimization
 
 
-    note : whenever we solve the same sub problem again and again the DP comes into play
-           Eg in fabonachi number we compute the previous number again and again in the other banches
+    note : whenever we solve the same sub problem again and again then DP comes into play
+           Eg in fabonachi number we compute the previous numbers again and again in the other banches
            of the recursion tree.
 
             f(5) = f(4) + f(3)
@@ -25,7 +25,7 @@
 
             for more understanding see the recursion tree for febonachi
 */
-// (Memoziation method) for febonachi number
+// (Memoization method) for febonachi number
 //TC - O(n)  and  SC - O(n)(recursion stack) +  O(n)
 
 int f(int n , vector<int> &dp) {
