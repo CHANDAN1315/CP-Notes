@@ -2,8 +2,10 @@
 
 /*
     ways to solve dp problems :-
-    1) Tabulation   :- Bottome-Up DP
-    2) Memoization  :- Top-Down DP
+    
+    1) Memoization  :- Top-Down DP
+    2) Tabulation   :- Bottome-Up DP
+    
 
 
     memoization  -> tabulation -> space optimization
