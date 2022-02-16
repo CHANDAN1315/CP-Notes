@@ -1,4 +1,5 @@
 // poblem link https://leetcode.com/problems/combination-sum/
+// TC - 2^n *k
 #define fo(i,0,n)  for(int i =0; i<=n; i++)
 
 void solve(vector<int> &a, vector<int> &ds, int i, int k, int n) {
