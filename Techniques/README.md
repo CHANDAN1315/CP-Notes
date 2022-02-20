@@ -1,0 +1,5 @@
+# Types of Techniquw
+1. Greedy 
+2. Sliding Window
+3. Kadane's Algrothium
+4. 2-Pointer approch
