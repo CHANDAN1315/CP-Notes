@@ -1,10 +1,11 @@
 
-Notes :
+# Notes :
 
-1)Binary Left and Right shift operator
+1. Binary Left and Right shift operator
 
 -> Left shift(<<)
     note : used to multiply by power of 2.
+    
     n = (n<<i) ->  n = (n)*2^i 
 
     eg : 5 <<1 :- 101 << 1 -> 1010 = (10)
@@ -14,6 +15,7 @@ Notes :
 
 -> Right Shift(>>)
     note : used to divide by power of 2.
+    
     n = (n>>i) ->  n = (n)/2^i
 
     eg : 10 >> 1 :- 1010>>1 -> 101 = (5)
@@ -22,50 +24,51 @@ Notes :
          ***note :( here Right shif operator will push the Binary of that number i'th time rightward    .)
 
 
-2) Check the i'th bit is set or not.
+2. Check the i'th bit is set or not.
     
         n = n & (1<<i)
         note : The integer having one set bit is power of 2.
 
-3)  set the i'th bit
+3. set the i'th bit
     
         (n | (1<<i))
 
 
-4) Unset the i'th bit
+4. Unset the i'th bit
 
         (n & (~(1<<i)))
 
-5) Toggle the i'th bit
+5. Toggle the i'th bit
 
         (n ^ (1<<i))
 
-6) inverting every bit by one complement 
+6. inverting every bit by one complement 
+
         ~(n)
 
-
-7) to unset the right most set bit
+7. To unset the right most set bit
     
         n = (n & (n-1))
 
-8)lowest set bit
+8. lowest set bit
 
        ans = n & (-n)
 
-9) Lower case to upper case // 
+9. Lower case to upper case // 
 
         char ch = 'a' //(01100001)
         char mask = '_'//(11011111) 
-
         char ans = (ch | mask) = 'A'
-10) upper to lower case 
+        
+10. upper to lower case 
+        
         ch = 'A' (01000001) 
         mask = '' (00100000) 
         ch | mask = 'a' (01100001) 
 
 11) is power of 2
 
-    (x and !(x & (x-1)))
+        x and !(x & (x-1))
 
 12) Check the given number is power of (x) or not 
         
