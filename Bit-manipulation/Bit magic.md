@@ -66,14 +66,20 @@
         mask = '' (00100000) 
         ch | mask = 'a' (01100001) 
 
-11) is power of 2
+11. is power of 2
 
         x and !(x & (x-1))
 
-12) Check the given number is power of (x) or not 
+12. Check the given number is power of (x) or not 
         
         ceil(logx(n)) == floor(logx(n))
 
-13) To find the right most set bit
+13. To find the right most set bit
 
         n & ~(n-1)
+
+14. Inbuilt function
+
+        Number of leading zeroes: builtin_clz(x)
+        Number of trailing zeroes : builtin_ctz(x)
+        Number of 1-bits: __builtin_popcount(x)
