@@ -12,4 +12,9 @@
 9. next_permutation(a.begin(), a.end())  // use while(next_permutation(a.....))
 10. min_element(a.begin(),a.end())
 11. max_element(a.begin(), a.end())
- 
+12. is_alpha(x)  // give true if x is a alphabet lower and upper case both.
+13. is_digit(x)  // true if x i digit.
+14. is_upper(x)  // check the letter is it upper case.
+15. is_lower(x)  // check the letter is it lower case.
+16. getline(cin, s)  // s-> string // take the string with spaces.
+17. 
