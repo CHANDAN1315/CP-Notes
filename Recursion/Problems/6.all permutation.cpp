@@ -1,3 +1,5 @@
+/*problem link : https://leetcode.com/problems/permutations/*/
+
 class Solution {
 private: 
     void recurepermute(vector<int> &ds,vector<int> &nums,vector<vector<int>> &ans,int freq[]){
@@ -27,3 +29,20 @@ public:
         
     }
 };
+
+// approch 2 : Without extra space of frequency count
+
+void solve(vector<int> a, int ind) {
+
+    if (ind == a.size()) {
+        for (auto i : a) cout << i << " ";
+        cout << endl;
+        return;
+    }
+
+    for (int i = ind; i < a.size(); i++) {
+        swap(a[ind], a[i]);
+        solve(a, ind + 1);
+    }
+
+}
