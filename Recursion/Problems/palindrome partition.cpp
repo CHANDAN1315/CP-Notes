@@ -1,4 +1,9 @@
  /* Phoenix_15 (Chandan Kumar) */
+// problem link : https://leetcode.com/problems/palindrome-partitioning/
+
+/* Approch : 
+           In this problem we use horizontal recursion calls and inside one recursion call there are two recursion calls 
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
