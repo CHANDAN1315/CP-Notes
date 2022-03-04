@@ -13,7 +13,7 @@ void solve() {
     fact.pb(n);
 
     string ans = "";
-    debug(fact)
+
     while (true) {
         ans = ans + to_string(fact[k / f]);
         fact.erase(fact.begin() + k / f);
