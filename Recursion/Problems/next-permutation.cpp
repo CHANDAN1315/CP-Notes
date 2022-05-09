@@ -5,6 +5,11 @@
 
 
 // optimal solution
+
+/*some time ther are problems which requires to travel from back side manuplate the array.
+
+
+*/ 
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
