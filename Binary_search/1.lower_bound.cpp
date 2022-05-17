@@ -21,5 +21,5 @@ int lower_bound(int low , int high, vector<int> arr){
     if(low < N && arr[low] < X) {
        low++;
     }
-    cout<<arr[low]<<endl;
+    return low;
 }
