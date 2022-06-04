@@ -50,7 +50,7 @@
     
         n = (n & (n-1))
 
-8. lowest set bit
+8. Least Set Bit(LSB)
 
        ans = n & (-n)
 
