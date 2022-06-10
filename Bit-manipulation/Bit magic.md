@@ -83,3 +83,9 @@
         Number of leading zeroes: builtin_clz(x)
         Number of trailing zeroes : builtin_ctz(x)
         Number of 1-bits: __builtin_popcount(x)
+        
+15. Fliping bits of binary array/string.
+         
+         for(int i =0; i<arr.size(); i++){
+            arr[i] ^= 1;
+         }
