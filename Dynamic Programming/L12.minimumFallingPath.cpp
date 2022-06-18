@@ -1,6 +1,6 @@
 class Solution {
 public:
-    // Method 1 Memoziation   TC : O(n*n)   SC O(n-1) + O(n-1) + O(n*n)
+    // Method 1 Memoziation   TC : O(n*n)   SC O(n) + O(n*n)
     int f (int n, vector<vector<int>>& mat, int col, vector<vector<int>>& dp){
         
         if(col < 0 || col >= mat[0].size()) return 1e8;
