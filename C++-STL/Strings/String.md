@@ -32,7 +32,13 @@
        find(i) : Find content in string (public member funct
 
        note :- a - initial position ; b - length of the substring.
-       s.substr(a,b) Generate substring (public member function )
+       s.substr(inital position , length_of_array) Generate substring (public member function )
 
        string str;
        getline(cin, str) : Get line from stream into string (function )
+       
+- string to int and int to string <ins> direct method</ins>
+              
+              int k = s[i] -'0'; or s[i] + '0';
+              string st = 1 + '0';  1 - '0';
+       
