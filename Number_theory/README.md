@@ -1,0 +1,1 @@
+- write i <= sqrt(n)     ->     i*i <= n
