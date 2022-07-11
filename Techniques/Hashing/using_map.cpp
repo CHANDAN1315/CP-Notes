@@ -1,5 +1,5 @@
 // https://codeforces.com/contest/1702/problem/C
-// Implementation.
+// Implementation. Fail in TC : 5
 void solve() {
  
     int n, k; cin>>n>>k;
@@ -25,4 +25,32 @@ void solve() {
         cout <<(f ? yes : no)<<endl;
     }
 }
- 
+
+// Optimized code.
+void solve() {
+
+    int n, k; cin >> n >> k;
+
+    map<int, int> l , h;
+    for (int i = 0; i < n; i++) {
+        int x ; cin >> x;
+        if (l.find(x) == l.end()) {
+            l[x] = i;
+            h[x] = i;
+        }
+        else h[x] = i;
+    }
+
+    while(k--){
+        int a , b; cin >>a>>b;
+        if(l.find(a) == l.end() or l.find(b) == l.end()){
+            cout <<no<<endl;
+            continue;
+        }
+        if(l[a] < h[b]){
+            cout <<yes<<endl;
+        }
+        else cout <<no<<endl;
+    }
+
+}
