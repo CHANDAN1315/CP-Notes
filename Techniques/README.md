@@ -1,6 +1,6 @@
 # Types of Techniques
 1. Greedy 
 2. Sliding Window
-3. Kadane's Algrothium
-4. 2-Pointer approch
-5. Cordinate compression
+3. 2-Pointer 
+4. Cordinate compression
+5. Hashing
