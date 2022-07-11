@@ -1,3 +1,27 @@
+/*
+q : what is a prime number?
+
+A : A Prime number is number that has only two divisors i.e 1 and the number it self.
+
+q: How to find Prime numbers?
+
+A: Method 1.
+Find the number of divisor of a number and if they are more than 2 then it is not a prime no.
+
+- Number of divisor can be found in O(n) and O(sqrt(n)) time. 
+
+q : How to find how many numbers are in a vector that are prime number.
+
+A:Method 1. 
+-Find the count of primes of each number till n. You can pass a vector instid of int n.
+- It can be found in TC O(n*log(n)) or O(n*sqrt(n))
+
+Method 2: Using seive of Eratosthenes 
+*/
+
+
+
+
 /*1. Count the number of divisor of n */
 
 // T.C -> O(n)
