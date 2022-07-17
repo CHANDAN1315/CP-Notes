@@ -13,6 +13,8 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+// TC : O(N*logN) logN for multiset     SC: O(N)
 class Solution {
 public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
