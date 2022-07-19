@@ -12,6 +12,8 @@
  */
 // n = number of nodes
 // TC : O(n)   SC: O(n)
+
+// Simillerly can be solved left view case is i = 0 push elem to ans
 class Solution {
 public:
     
