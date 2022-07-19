@@ -11,9 +11,10 @@
  * };
  */
 // n = number of nodes
-// TC : O(n)   SC: O(n)
+// TC : O(n)   SC: O(largest level)
 
 // Simillerly can be solved left view case is i = 0 push elem to ans
+// Method 1: Using level order traversal 
 class Solution {
 public:
     
@@ -36,6 +37,36 @@ public:
         }
         return ans;
         
+    }
+
+};
+
+
+// Using reverse preorder traversal i.e Root-right- left
+// TC : O(n)   SC : O(height of BT)
+class Solution {
+public:
+    
+    void view(TreeNode* root, int level, vector<int>& ans){
+        
+        if(root == NULL) return;
+        
+        if(level == ans.size()) ans.push_back(root->val);
+        cout <<level<<" ";
+        if(root->right) view(root->right, level+1, ans);
+        if(root->left) view(root->left, level+1, ans);
+    }
+    
+    vector<int> rightSideView(TreeNode* root) {
+        // Recursive method
+        // reverse preorder traversal - root rig lef
+        vector<int> ans;
+        if(root == NULL) return ans;
+        
+        ans.push_back(root->val);
+        if(root->right) view(root->right, 1, ans);
+        if(root->left) view(root->left, 1, ans);
+        return ans;
     }
 
 };
