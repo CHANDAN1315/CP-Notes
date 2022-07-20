@@ -4,3 +4,4 @@
 3. 2-Pointer 
 4. Cordinate compression
 5. Hashing
+6. Kadanes Algorithum
