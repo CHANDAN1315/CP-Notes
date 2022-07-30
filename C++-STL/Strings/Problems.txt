@@ -10,3 +10,5 @@ https://codeforces.com/contest/1369/problem/B
 https://codeforces.com/contest/1305/problem/B
 https://codeforces.com/contest/1367/problem/C
 https://codeforces.com/contest/1626/problem/B
+
+vvi string stream : https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
